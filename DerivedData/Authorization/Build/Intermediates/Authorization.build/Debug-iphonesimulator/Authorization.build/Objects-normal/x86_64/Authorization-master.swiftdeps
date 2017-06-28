@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "e006ee52a67630ba6fca32fb9d0678a8"
+build_time: [551963167, 973322000]
+inputs:
+  "/Users/zaman/iOS/projects/Authorization_v2/Authorization/TokenInfoViewController.swift": [551961548, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Authorization/User.swift": [551963071, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Authorization/UIViewExtensions.swift": [551962785, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Authorization/AppDelegate.swift": [551868897, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Authorization/Storyboard.swift": [551868854, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Authorization/EmailViewController.swift": [551963086, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Authorization/PasswordViewController.swift": [551963166, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Authorization/Storage.swift": [551869906, 0]

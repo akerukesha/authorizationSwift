@@ -1,0 +1,277 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Coding"
+provides-nominal:
+- "P5Cache6Coding"
+provides-member:
+- ["P5Cache6Coding", ""]
+- ["P5Cache8Cachable", ""]
+- ["P5Cache6Coding", "decode"]
+- ["P5Cache6Coding", "encode"]
+- ["P5Cache8Cachable", "decode"]
+- ["P5Cache8Cachable", "encode"]
+provides-dynamic-lookup:
+- "encode"
+- "helper"
+- "key"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Cachable"
+- "CastingPrecedence"
+- "Coding"
+- !private "CodingCapsule"
+- !private "CodingHelper"
+- "Data"
+- !private "NSClassFromString"
+- "NSCoder"
+- "NSCoding"
+- !private "NSKeyedArchiver"
+- !private "NSKeyedUnarchiver"
+- !private "NSObject"
+- !private "NSStringFromClass"
+- !private "String"
+- "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "CodingCapsule"]
+- !private ["Ps9AnyObject", "NSClassFromString"]
+- !private ["Ps9AnyObject", "NSStringFromClass"]
+- !private ["Ps9AnyObject", "T"]
+- !private ["Ps9AnyObject", "archivedData"]
+- !private ["Ps9AnyObject", "decodeObject"]
+- !private ["Ps9AnyObject", "encode"]
+- !private ["Ps9AnyObject", "encodeWithCoder"]
+- !private ["Ps9AnyObject", "helper"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "key"]
+- !private ["Ps9AnyObject", "unarchiveObject"]
+- !private ["Ps9AnyObject", "value"]
+- !private ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "CodingCapsule"]
+- !private ["Ps7CVarArg", "NSClassFromString"]
+- !private ["Ps7CVarArg", "NSStringFromClass"]
+- !private ["Ps7CVarArg", "archivedData"]
+- !private ["Ps7CVarArg", "decodeObject"]
+- !private ["Ps7CVarArg", "encode"]
+- !private ["Ps7CVarArg", "encodeWithCoder"]
+- !private ["Ps7CVarArg", "helper"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "key"]
+- !private ["Ps7CVarArg", "unarchiveObject"]
+- !private ["Ps7CVarArg", ""]
+- !private ["P5Cache8Cachable", "CodingCapsule"]
+- !private ["P5Cache8Cachable", "CodingHelper"]
+- ["P5Cache8Cachable", "Data"]
+- ["P5Cache8Cachable", "NSCoder"]
+- ["P5Cache8Cachable", "NSCoding"]
+- !private ["P5Cache8Cachable", "NSKeyedArchiver"]
+- !private ["P5Cache8Cachable", "NSKeyedUnarchiver"]
+- ["P5Cache8Cachable", "Self"]
+- ["P5Cache8Cachable", "decode"]
+- ["P5Cache8Cachable", "encode"]
+- ["P5Cache8Cachable", "init"]
+- ["P5Cache8Cachable", ""]
+- !private ["P5Cache6Coding", "CodingCapsule"]
+- !private ["P5Cache6Coding", "CodingHelper"]
+- ["P5Cache6Coding", "Data"]
+- ["P5Cache6Coding", "NSCoder"]
+- !private ["P5Cache6Coding", "NSKeyedArchiver"]
+- !private ["P5Cache6Coding", "NSKeyedUnarchiver"]
+- ["P5Cache6Coding", "Self"]
+- ["P5Cache6Coding", "decode"]
+- ["P5Cache6Coding", "encode"]
+- ["P5Cache6Coding", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CodingCapsule"]
+- !private ["Ps28CustomDebugStringConvertible", "NSClassFromString"]
+- !private ["Ps28CustomDebugStringConvertible", "NSStringFromClass"]
+- !private ["Ps28CustomDebugStringConvertible", "archivedData"]
+- !private ["Ps28CustomDebugStringConvertible", "decodeObject"]
+- !private ["Ps28CustomDebugStringConvertible", "encode"]
+- !private ["Ps28CustomDebugStringConvertible", "encodeWithCoder"]
+- !private ["Ps28CustomDebugStringConvertible", "helper"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "key"]
+- !private ["Ps28CustomDebugStringConvertible", "unarchiveObject"]
+- !private ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "CodingCapsule"]
+- !private ["Ps23CustomStringConvertible", "NSClassFromString"]
+- !private ["Ps23CustomStringConvertible", "NSStringFromClass"]
+- !private ["Ps23CustomStringConvertible", "archivedData"]
+- !private ["Ps23CustomStringConvertible", "decodeObject"]
+- !private ["Ps23CustomStringConvertible", "encode"]
+- !private ["Ps23CustomStringConvertible", "encodeWithCoder"]
+- !private ["Ps23CustomStringConvertible", "helper"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "key"]
+- !private ["Ps23CustomStringConvertible", "unarchiveObject"]
+- !private ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CodingCapsule"]
+- !private ["Ps9Equatable", "NSClassFromString"]
+- !private ["Ps9Equatable", "NSStringFromClass"]
+- !private ["Ps9Equatable", "archivedData"]
+- !private ["Ps9Equatable", "decodeObject"]
+- !private ["Ps9Equatable", "encode"]
+- !private ["Ps9Equatable", "encodeWithCoder"]
+- !private ["Ps9Equatable", "helper"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "key"]
+- !private ["Ps9Equatable", "unarchiveObject"]
+- !private ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CodingCapsule"]
+- !private ["Ps8Hashable", "NSClassFromString"]
+- !private ["Ps8Hashable", "NSStringFromClass"]
+- !private ["Ps8Hashable", "archivedData"]
+- !private ["Ps8Hashable", "decodeObject"]
+- !private ["Ps8Hashable", "encode"]
+- !private ["Ps8Hashable", "encodeWithCoder"]
+- !private ["Ps8Hashable", "helper"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "key"]
+- !private ["Ps8Hashable", "unarchiveObject"]
+- !private ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["CSo7NSCoder", "archivedData"]
+- !private ["CSo7NSCoder", "decodeObject"]
+- !private ["CSo7NSCoder", "encode"]
+- !private ["CSo7NSCoder", "unarchiveObject"]
+- !private ["PSo8NSCoding", "CodingCapsule"]
+- ["PSo8NSCoding", "Data"]
+- !private ["PSo8NSCoding", "NSClassFromString"]
+- !private ["PSo8NSCoding", "NSKeyedArchiver"]
+- !private ["PSo8NSCoding", "NSKeyedUnarchiver"]
+- !private ["PSo8NSCoding", "NSStringFromClass"]
+- ["PSo8NSCoding", "Self"]
+- !private ["PSo8NSCoding", "T"]
+- !private ["PSo8NSCoding", "encode"]
+- !private ["PSo8NSCoding", "encodeWithCoder"]
+- !private ["PSo8NSCoding", "helper"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "key"]
+- !private ["PSo8NSCoding", "value"]
+- !private ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo15NSKeyedArchiver", "archivedData"]
+- !private ["CSo17NSKeyedUnarchiver", "unarchiveObject"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "CodingCapsule"]
+- !private ["CSo8NSObject", "NSClassFromString"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "NSCoding"]
+- !private ["CSo8NSObject", "NSStringFromClass"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "archivedData"]
+- !private ["CSo8NSObject", "decodeObject"]
+- !private ["CSo8NSObject", "encode"]
+- !private ["CSo8NSObject", "encodeWithCoder"]
+- !private ["CSo8NSObject", "helper"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "key"]
+- !private ["CSo8NSObject", "unarchiveObject"]
+- !private ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CodingCapsule"]
+- !private ["PSo16NSObjectProtocol", "NSClassFromString"]
+- !private ["PSo16NSObjectProtocol", "NSStringFromClass"]
+- !private ["PSo16NSObjectProtocol", "archivedData"]
+- !private ["PSo16NSObjectProtocol", "decodeObject"]
+- !private ["PSo16NSObjectProtocol", "encode"]
+- !private ["PSo16NSObjectProtocol", "encodeWithCoder"]
+- !private ["PSo16NSObjectProtocol", "helper"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "key"]
+- !private ["PSo16NSObjectProtocol", "unarchiveObject"]
+- !private ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CodingCapsule"]
+- !private ["Ps9_Hashable", "NSClassFromString"]
+- !private ["Ps9_Hashable", "NSStringFromClass"]
+- !private ["Ps9_Hashable", "archivedData"]
+- !private ["Ps9_Hashable", "decodeObject"]
+- !private ["Ps9_Hashable", "encode"]
+- !private ["Ps9_Hashable", "encodeWithCoder"]
+- !private ["Ps9_Hashable", "helper"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "key"]
+- !private ["Ps9_Hashable", "unarchiveObject"]
+- !private ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps7CVarArg"
+- "P5Cache8Cachable"
+- "P5Cache6Coding"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo15NSKeyedArchiver"
+- !private "CSo17NSKeyedUnarchiver"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaman/iOS/projects/Authorization_v2/Pods/Target Support Files/Cache/Cache-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/Pods/Target Support Files/SwiftHash/SwiftHash-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Intermediates/Pods.build/Debug-iphonesimulator/Cache.build/unextended-module.modulemap"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftHash.build/module.modulemap"
+interface-hash: "7e93c5a130c8c2f5d74158ba1f87f380"

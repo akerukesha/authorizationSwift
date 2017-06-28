@@ -1,0 +1,46 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JSON"
+provides-nominal:
+- "O5Cache4JSON"
+provides-member:
+- ["O5Cache4JSON", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "JSON"
+- "String"
+depends-member:
+- ["P5Cache8Cachable", "array"]
+- ["P5Cache8Cachable", "dictionary"]
+- ["O5Cache4JSON", "String"]
+- ["O5Cache4JSON", "array"]
+- ["O5Cache4JSON", "dictionary"]
+- ["O5Cache4JSON", "object"]
+depends-nominal:
+- "P5Cache8Cachable"
+- "O5Cache4JSON"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaman/iOS/projects/Authorization_v2/Pods/Target Support Files/Cache/Cache-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/Pods/Target Support Files/SwiftHash/SwiftHash-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Intermediates/Pods.build/Debug-iphonesimulator/Cache.build/unextended-module.modulemap"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftHash.build/module.modulemap"
+interface-hash: "8cdb472da80705fe222970b0da8f1247"

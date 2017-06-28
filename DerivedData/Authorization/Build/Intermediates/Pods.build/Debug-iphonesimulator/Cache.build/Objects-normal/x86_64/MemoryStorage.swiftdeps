@@ -1,0 +1,319 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MemoryStorage"
+provides-nominal:
+- "C5Cache13MemoryStorage"
+provides-member:
+- ["C5Cache13MemoryStorage", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Cachable"
+- "CacheEntry"
+- "Capsule"
+- "CastingPrecedence"
+- "Expiry"
+- !private "Int"
+- "MemoryStorage"
+- "NSCache"
+- "NSString"
+- "Set"
+- "StorageAware"
+- "String"
+- "UInt"
+depends-member:
+- !private ["Ps9AnyObject", "CacheEntry"]
+- !private ["Ps9AnyObject", "Capsule"]
+- !private ["Ps9AnyObject", "Expiry"]
+- !private ["Ps9AnyObject", "Int"]
+- ["Ps9AnyObject", "NSCache"]
+- ["Ps9AnyObject", "Set"]
+- ["Ps9AnyObject", "addObject"]
+- !private ["Ps9AnyObject", "cache"]
+- ["Ps9AnyObject", "cacheEntry"]
+- ["Ps9AnyObject", "clear"]
+- ["Ps9AnyObject", "clearExpired"]
+- !private ["Ps9AnyObject", "countLimit"]
+- !private ["Ps9AnyObject", "expiryDate"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isExpired"]
+- !private ["Ps9AnyObject", "keys"]
+- !private ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "object"]
+- !private ["Ps9AnyObject", "removeAllObjects"]
+- ["Ps9AnyObject", "removeObject"]
+- ["Ps9AnyObject", "removeObjectIfExpired"]
+- !private ["Ps9AnyObject", "setObject"]
+- !private ["Ps9AnyObject", "totalCostLimit"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "countLimit"]
+- !private ["Ps7CVarArg", "expiryDate"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "insert"]
+- !private ["Ps7CVarArg", "isExpired"]
+- !private ["Ps7CVarArg", "name"]
+- !private ["Ps7CVarArg", "object"]
+- !private ["Ps7CVarArg", "remove"]
+- !private ["Ps7CVarArg", "removeAllObjects"]
+- !private ["Ps7CVarArg", "removeObject"]
+- !private ["Ps7CVarArg", "setObject"]
+- !private ["Ps7CVarArg", "totalCostLimit"]
+- !private ["V5Cache10CacheEntry", "init"]
+- !private ["V5Cache10CacheEntry", "object"]
+- ["C5Cache7Capsule", "deinit"]
+- !private ["C5Cache7Capsule", "expiryDate"]
+- !private ["C5Cache7Capsule", "init"]
+- !private ["C5Cache7Capsule", "isExpired"]
+- !private ["C5Cache7Capsule", "object"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "insert"]
+- !private ["Ps10Collection", "remove"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "countLimit"]
+- !private ["Ps28CustomDebugStringConvertible", "expiryDate"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "insert"]
+- !private ["Ps28CustomDebugStringConvertible", "isExpired"]
+- !private ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "object"]
+- !private ["Ps28CustomDebugStringConvertible", "remove"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAllObjects"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObject"]
+- !private ["Ps28CustomDebugStringConvertible", "setObject"]
+- !private ["Ps28CustomDebugStringConvertible", "totalCostLimit"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "insert"]
+- !private ["Ps17CustomReflectable", "remove"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "countLimit"]
+- !private ["Ps23CustomStringConvertible", "expiryDate"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "insert"]
+- !private ["Ps23CustomStringConvertible", "isExpired"]
+- !private ["Ps23CustomStringConvertible", "name"]
+- !private ["Ps23CustomStringConvertible", "object"]
+- !private ["Ps23CustomStringConvertible", "remove"]
+- !private ["Ps23CustomStringConvertible", "removeAllObjects"]
+- !private ["Ps23CustomStringConvertible", "removeObject"]
+- !private ["Ps23CustomStringConvertible", "setObject"]
+- !private ["Ps23CustomStringConvertible", "totalCostLimit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "countLimit"]
+- !private ["Ps9Equatable", "expiryDate"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "insert"]
+- !private ["Ps9Equatable", "isExpired"]
+- !private ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "object"]
+- !private ["Ps9Equatable", "remove"]
+- !private ["Ps9Equatable", "removeAllObjects"]
+- !private ["Ps9Equatable", "removeObject"]
+- !private ["Ps9Equatable", "setObject"]
+- !private ["Ps9Equatable", "totalCostLimit"]
+- !private ["O5Cache6Expiry", "date"]
+- !private ["O5Cache6Expiry", "never"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "insert"]
+- !private ["Ps25ExpressibleByArrayLiteral", "remove"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "countLimit"]
+- !private ["Ps8Hashable", "expiryDate"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "insert"]
+- !private ["Ps8Hashable", "isExpired"]
+- !private ["Ps8Hashable", "name"]
+- !private ["Ps8Hashable", "object"]
+- !private ["Ps8Hashable", "remove"]
+- !private ["Ps8Hashable", "removeAllObjects"]
+- !private ["Ps8Hashable", "removeObject"]
+- !private ["Ps8Hashable", "setObject"]
+- !private ["Ps8Hashable", "totalCostLimit"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["C5Cache13MemoryStorage", "Cachable"]
+- ["C5Cache13MemoryStorage", "CacheEntry"]
+- ["C5Cache13MemoryStorage", "Capsule"]
+- ["C5Cache13MemoryStorage", "Expiry"]
+- !private ["C5Cache13MemoryStorage", "Int"]
+- ["C5Cache13MemoryStorage", "NSCache"]
+- ["C5Cache13MemoryStorage", "NSString"]
+- ["C5Cache13MemoryStorage", "Set"]
+- ["C5Cache13MemoryStorage", "String"]
+- ["C5Cache13MemoryStorage", "UInt"]
+- ["C5Cache13MemoryStorage", "addObject"]
+- !private ["C5Cache13MemoryStorage", "cache"]
+- ["C5Cache13MemoryStorage", "cacheEntry"]
+- ["C5Cache13MemoryStorage", "clear"]
+- ["C5Cache13MemoryStorage", "clearExpired"]
+- ["C5Cache13MemoryStorage", "deinit"]
+- ["C5Cache13MemoryStorage", "init"]
+- !private ["C5Cache13MemoryStorage", "keys"]
+- ["C5Cache13MemoryStorage", "object"]
+- ["C5Cache13MemoryStorage", "removeObject"]
+- ["C5Cache13MemoryStorage", "removeObjectIfExpired"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["CSo7NSCache", "countLimit"]
+- ["CSo7NSCache", "init"]
+- !private ["CSo7NSCache", "name"]
+- !private ["CSo7NSCache", "object"]
+- !private ["CSo7NSCache", "removeAllObjects"]
+- !private ["CSo7NSCache", "removeObject"]
+- !private ["CSo7NSCache", "setObject"]
+- !private ["CSo7NSCache", "totalCostLimit"]
+- !private ["CSo8NSObject", "countLimit"]
+- !private ["CSo8NSObject", "expiryDate"]
+- !private ["CSo8NSObject", "isExpired"]
+- !private ["CSo8NSObject", "name"]
+- !private ["CSo8NSObject", "object"]
+- !private ["CSo8NSObject", "removeAllObjects"]
+- !private ["CSo8NSObject", "removeObject"]
+- !private ["CSo8NSObject", "setObject"]
+- !private ["CSo8NSObject", "totalCostLimit"]
+- !private ["PSo16NSObjectProtocol", "countLimit"]
+- !private ["PSo16NSObjectProtocol", "expiryDate"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isExpired"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- !private ["PSo16NSObjectProtocol", "object"]
+- !private ["PSo16NSObjectProtocol", "removeAllObjects"]
+- !private ["PSo16NSObjectProtocol", "removeObject"]
+- !private ["PSo16NSObjectProtocol", "setObject"]
+- !private ["PSo16NSObjectProtocol", "totalCostLimit"]
+- ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "insert"]
+- !private ["Ps8Sequence", "remove"]
+- ["Vs3Set", "init"]
+- !private ["Vs3Set", "insert"]
+- !private ["Vs3Set", "remove"]
+- ["Ps10SetAlgebra", "init"]
+- !private ["Ps10SetAlgebra", "insert"]
+- !private ["Ps10SetAlgebra", "remove"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["P5Cache12StorageAware", "CacheEntry"]
+- !private ["P5Cache12StorageAware", "Capsule"]
+- !private ["P5Cache12StorageAware", "Expiry"]
+- !private ["P5Cache12StorageAware", "Int"]
+- ["P5Cache12StorageAware", "NSCache"]
+- ["P5Cache12StorageAware", "Set"]
+- ["P5Cache12StorageAware", "addObject"]
+- !private ["P5Cache12StorageAware", "cache"]
+- ["P5Cache12StorageAware", "cacheEntry"]
+- ["P5Cache12StorageAware", "clear"]
+- ["P5Cache12StorageAware", "clearExpired"]
+- !private ["P5Cache12StorageAware", "keys"]
+- ["P5Cache12StorageAware", "object"]
+- ["P5Cache12StorageAware", "removeObject"]
+- ["P5Cache12StorageAware", "removeObjectIfExpired"]
+- ["P5Cache12StorageAware", ""]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "countLimit"]
+- !private ["Ps9_Hashable", "expiryDate"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "insert"]
+- !private ["Ps9_Hashable", "isExpired"]
+- !private ["Ps9_Hashable", "name"]
+- !private ["Ps9_Hashable", "object"]
+- !private ["Ps9_Hashable", "remove"]
+- !private ["Ps9_Hashable", "removeAllObjects"]
+- !private ["Ps9_Hashable", "removeObject"]
+- !private ["Ps9_Hashable", "setObject"]
+- !private ["Ps9_Hashable", "totalCostLimit"]
+- !private ["Ps14_Incrementable", "init"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "insert"]
+- !private ["Ps10_Indexable", "remove"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "insert"]
+- !private ["Ps14_IndexableBase", "remove"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "insert"]
+- !private ["Ps21_ObjectiveCBridgeable", "remove"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "V5Cache10CacheEntry"
+- "C5Cache7Capsule"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "O5Cache6Expiry"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- "C5Cache13MemoryStorage"
+- !private "Ps10MirrorPath"
+- "CSo7NSCache"
+- !private "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps8Sequence"
+- "Vs3Set"
+- "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "P5Cache12StorageAware"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaman/iOS/projects/Authorization_v2/Pods/Target Support Files/Cache/Cache-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/Pods/Target Support Files/SwiftHash/SwiftHash-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Intermediates/Pods.build/Debug-iphonesimulator/Cache.build/unextended-module.modulemap"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftHash.build/module.modulemap"
+interface-hash: "db3bba046a4bcd50a8a23096d7b83ce9"

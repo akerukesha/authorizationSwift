@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "93ff921d6c85aabece6dc7a2c14d769f"
+build_time: [551956825, 925646000]
+inputs:
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/AFError.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/Alamofire.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/MultipartFormData.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/Notifications.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/ParameterEncoding.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/Request.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/Response.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/ResponseSerialization.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/Result.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/ServerTrustPolicy.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/SessionDelegate.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/SessionManager.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/TaskDelegate.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/Timeline.swift": [551346742, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/Validation.swift": [551346742, 0]

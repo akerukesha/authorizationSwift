@@ -1,0 +1,413 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EmailViewController"
+provides-nominal:
+- "C13Authorization19EmailViewController"
+provides-member:
+- ["C13Authorization19EmailViewController", ""]
+provides-dynamic-lookup:
+- "emailTextField"
+- "prepare"
+- "showPassword"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Constants"
+- "EmailViewController"
+- !private "PasswordViewController"
+- !private "String"
+- "StringLiteralType"
+- !private "UIBarButtonItem"
+- "UIStoryboardSegue"
+- "UITextField"
+- "UIViewController"
+- !private "User"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "Constants"]
+- !private ["Ps9AnyObject", "User"]
+- !private ["Ps9AnyObject", "destination"]
+- !private ["Ps9AnyObject", "email"]
+- !private ["Ps9AnyObject", "emailTextField"]
+- !private ["Ps9AnyObject", "identifier"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "performSegue"]
+- !private ["Ps9AnyObject", "showAlertMessage"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", ""]
+- !private ["P12ObjectMapper12BaseMappable", "isValidEmail"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "Constants"]
+- !private ["Ps7CVarArg", "User"]
+- !private ["Ps7CVarArg", "destination"]
+- !private ["Ps7CVarArg", "email"]
+- !private ["Ps7CVarArg", "emailTextField"]
+- !private ["Ps7CVarArg", "identifier"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "performSegue"]
+- !private ["Ps7CVarArg", "showAlertMessage"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", ""]
+- !private ["P5Cache8Cachable", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Constants"]
+- !private ["Ps28CustomDebugStringConvertible", "User"]
+- !private ["Ps28CustomDebugStringConvertible", "destination"]
+- !private ["Ps28CustomDebugStringConvertible", "email"]
+- !private ["Ps28CustomDebugStringConvertible", "emailTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegue"]
+- !private ["Ps28CustomDebugStringConvertible", "showAlertMessage"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Constants"]
+- !private ["Ps23CustomStringConvertible", "User"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "destination"]
+- !private ["Ps23CustomStringConvertible", "email"]
+- !private ["Ps23CustomStringConvertible", "emailTextField"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "performSegue"]
+- !private ["Ps23CustomStringConvertible", "showAlertMessage"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["C13Authorization19EmailViewController", "Constants"]
+- !private ["C13Authorization19EmailViewController", "PasswordViewController"]
+- !private ["C13Authorization19EmailViewController", "String"]
+- !private ["C13Authorization19EmailViewController", "UIBarButtonItem"]
+- ["C13Authorization19EmailViewController", "UIStoryboardSegue"]
+- ["C13Authorization19EmailViewController", "UITextField"]
+- !private ["C13Authorization19EmailViewController", "User"]
+- ["C13Authorization19EmailViewController", "deinit"]
+- !private ["C13Authorization19EmailViewController", "emailTextField"]
+- ["C13Authorization19EmailViewController", "init"]
+- !private ["C13Authorization19EmailViewController", "performSegue"]
+- ["C13Authorization19EmailViewController", "prepare"]
+- !private ["C13Authorization19EmailViewController", "showAlertMessage"]
+- !private ["C13Authorization19EmailViewController", "showPassword"]
+- !private ["Ps9Equatable", "Constants"]
+- !private ["Ps9Equatable", "User"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "destination"]
+- !private ["Ps9Equatable", "email"]
+- !private ["Ps9Equatable", "emailTextField"]
+- !private ["Ps9Equatable", "identifier"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "performSegue"]
+- !private ["Ps9Equatable", "showAlertMessage"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Constants"]
+- !private ["Ps8Hashable", "User"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "destination"]
+- !private ["Ps8Hashable", "email"]
+- !private ["Ps8Hashable", "emailTextField"]
+- !private ["Ps8Hashable", "identifier"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "performSegue"]
+- !private ["Ps8Hashable", "showAlertMessage"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["P12ObjectMapper8Mappable", "isValidEmail"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "Constants"]
+- !private ["PSo8NSCoding", "User"]
+- !private ["PSo8NSCoding", "email"]
+- !private ["PSo8NSCoding", "emailTextField"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "performSegue"]
+- !private ["PSo8NSCoding", "showAlertMessage"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "Constants"]
+- !private ["PSo26NSExtensionRequestHandling", "User"]
+- !private ["PSo26NSExtensionRequestHandling", "email"]
+- !private ["PSo26NSExtensionRequestHandling", "emailTextField"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "showAlertMessage"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Constants"]
+- !private ["CSo8NSObject", "PasswordViewController"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIBarButtonItem"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "User"]
+- !private ["CSo8NSObject", "destination"]
+- !private ["CSo8NSObject", "email"]
+- ["CSo8NSObject", "emailTextField"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "performSegue"]
+- ["CSo8NSObject", "prepare"]
+- !private ["CSo8NSObject", "showAlertMessage"]
+- ["CSo8NSObject", "showPassword"]
+- !private ["CSo8NSObject", "text"]
+- !private ["PSo16NSObjectProtocol", "Constants"]
+- !private ["PSo16NSObjectProtocol", "User"]
+- !private ["PSo16NSObjectProtocol", "destination"]
+- !private ["PSo16NSObjectProtocol", "email"]
+- !private ["PSo16NSObjectProtocol", "emailTextField"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "performSegue"]
+- !private ["PSo16NSObjectProtocol", "showAlertMessage"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["P23NVActivityIndicatorView27NVActivityIndicatorViewable", "email"]
+- !private ["C13Authorization22PasswordViewController", "email"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "Constants"]
+- !private ["PSo21UIAppearanceContainer", "User"]
+- !private ["PSo21UIAppearanceContainer", "email"]
+- !private ["PSo21UIAppearanceContainer", "emailTextField"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "performSegue"]
+- !private ["PSo21UIAppearanceContainer", "showAlertMessage"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "Constants"]
+- !private ["PSo18UIContentContainer", "User"]
+- !private ["PSo18UIContentContainer", "email"]
+- !private ["PSo18UIContentContainer", "emailTextField"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "performSegue"]
+- !private ["PSo18UIContentContainer", "showAlertMessage"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "Constants"]
+- !private ["PSo18UIFocusEnvironment", "User"]
+- !private ["PSo18UIFocusEnvironment", "email"]
+- !private ["PSo18UIFocusEnvironment", "emailTextField"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "performSegue"]
+- !private ["PSo18UIFocusEnvironment", "showAlertMessage"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo11UIResponder", "Constants"]
+- !private ["CSo11UIResponder", "PasswordViewController"]
+- !private ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIBarButtonItem"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "UITextField"]
+- !private ["CSo11UIResponder", "User"]
+- !private ["CSo11UIResponder", "email"]
+- ["CSo11UIResponder", "emailTextField"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "performSegue"]
+- ["CSo11UIResponder", "prepare"]
+- !private ["CSo11UIResponder", "showAlertMessage"]
+- ["CSo11UIResponder", "showPassword"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "Constants"]
+- !private ["PSo30UIResponderStandardEditActions", "User"]
+- !private ["PSo30UIResponderStandardEditActions", "email"]
+- !private ["PSo30UIResponderStandardEditActions", "emailTextField"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "performSegue"]
+- !private ["PSo30UIResponderStandardEditActions", "showAlertMessage"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "Constants"]
+- !private ["PSo16UIStateRestoring", "User"]
+- !private ["PSo16UIStateRestoring", "email"]
+- !private ["PSo16UIStateRestoring", "emailTextField"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "performSegue"]
+- !private ["PSo16UIStateRestoring", "showAlertMessage"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destination"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "Constants"]
+- !private ["PSo18UITraitEnvironment", "User"]
+- !private ["PSo18UITraitEnvironment", "email"]
+- !private ["PSo18UITraitEnvironment", "emailTextField"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "performSegue"]
+- !private ["PSo18UITraitEnvironment", "showAlertMessage"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "Constants"]
+- !private ["CSo16UIViewController", "PasswordViewController"]
+- !private ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIBarButtonItem"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- ["CSo16UIViewController", "UITextField"]
+- !private ["CSo16UIViewController", "User"]
+- !private ["CSo16UIViewController", "email"]
+- ["CSo16UIViewController", "emailTextField"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "performSegue"]
+- ["CSo16UIViewController", "prepare"]
+- !private ["CSo16UIViewController", "showAlertMessage"]
+- ["CSo16UIViewController", "showPassword"]
+- ["CSo16UIViewController", ""]
+- !private ["P9Alamofire14URLConvertible", "init"]
+- !private ["V13Authorization4User", "isValidEmail"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Constants"]
+- !private ["Ps9_Hashable", "User"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "destination"]
+- !private ["Ps9_Hashable", "email"]
+- !private ["Ps9_Hashable", "emailTextField"]
+- !private ["Ps9_Hashable", "identifier"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "performSegue"]
+- !private ["Ps9_Hashable", "showAlertMessage"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "P12ObjectMapper12BaseMappable"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "P5Cache8Cachable"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C13Authorization19EmailViewController"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "P12ObjectMapper8Mappable"
+- !private "Ps10MirrorPath"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P23NVActivityIndicatorView27NVActivityIndicatorViewable"
+- !private "C13Authorization22PasswordViewController"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "P9Alamofire14URLConvertible"
+- !private "V13Authorization4User"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/Cache/Cache.framework/Modules/Cache.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/IQKeyboardManagerSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/Cache/Cache.framework/Headers/Cache-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/Cache/Cache.framework/Headers/Cache-Swift.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/Cache/Cache.framework/Modules/module.modulemap"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/module.modulemap"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/module.modulemap"
+interface-hash: "52e8819b373b726f9b67da01c14c4b21"
