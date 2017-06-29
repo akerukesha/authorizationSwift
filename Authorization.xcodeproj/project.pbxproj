@@ -19,6 +19,8 @@
 		54B55A731EFA6FE00089B105 /* TokenInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B55A721EFA6FE00089B105 /* TokenInfoViewController.swift */; };
 		E17400842C3F51F06BC89C6D /* Pods_Authorization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B91DFABE88B8FC5D314891 /* Pods_Authorization.framework */; };
 		F961EAA91F03C35800EA13A2 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F961EAA81F03C35800EA13A2 /* UIViewExtensions.swift */; };
+		F961EAAB1F03DBDA00EA13A2 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F961EAAA1F03DBDA00EA13A2 /* GlobalConstants.swift */; };
+		F961EAAD1F03EBF700EA13A2 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F961EAAC1F03EBF700EA13A2 /* ImageDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		D6B91DFABE88B8FC5D314891 /* Pods_Authorization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Authorization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89407B2E7D3F26A7B55687A /* Pods-Authorization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authorization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Authorization/Pods-Authorization.debug.xcconfig"; sourceTree = "<group>"; };
 		F961EAA81F03C35800EA13A2 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		F961EAAA1F03DBDA00EA13A2 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		F961EAAC1F03EBF700EA13A2 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				54B55A701EFA6B000089B105 /* User.swift */,
 				541FB61B1F024D8A0002E372 /* Storage.swift */,
 				541FB61D1F0253E90002E372 /* Storyboard.swift */,
+				F961EAAA1F03DBDA00EA13A2 /* GlobalConstants.swift */,
+				F961EAAC1F03EBF700EA13A2 /* ImageDownloader.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -237,7 +243,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E0C46EB60B5525B1D30DD007 /* [CP] Copy Pods Resources */ = {
@@ -263,10 +269,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				54B55A731EFA6FE00089B105 /* TokenInfoViewController.swift in Sources */,
+				F961EAAB1F03DBDA00EA13A2 /* GlobalConstants.swift in Sources */,
 				54B55A711EFA6B000089B105 /* User.swift in Sources */,
 				F961EAA91F03C35800EA13A2 /* UIViewExtensions.swift in Sources */,
 				548B81501EFA5C0500A38317 /* AppDelegate.swift in Sources */,
 				541FB61E1F0253E90002E372 /* Storyboard.swift in Sources */,
+				F961EAAD1F03EBF700EA13A2 /* ImageDownloader.swift in Sources */,
 				54B55A6D1EFA63520089B105 /* EmailViewController.swift in Sources */,
 				54B55A6F1EFA65BC0089B105 /* PasswordViewController.swift in Sources */,
 				541FB61C1F024D8A0002E372 /* Storage.swift in Sources */,

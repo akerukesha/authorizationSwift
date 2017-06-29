@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "f6c997f8d8b2229256e3b975973d7769"
+build_time: [551973270, 794702000]
+inputs:
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/AlamofireImage/Source/AFIError.swift": [551973250, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/AlamofireImage/Source/Image.swift": [551973250, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/AlamofireImage/Source/ImageCache.swift": [551973250, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/AlamofireImage/Source/ImageDownloader.swift": [551973250, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/AlamofireImage/Source/ImageFilter.swift": [551973250, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [551973250, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [551973250, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [551973250, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [551973250, 0]

@@ -14,6 +14,7 @@ private struct Constants {
     
     static let authorizationNC = "Authorization Navigation Controller"
     static let tokenInfoVC = "Token Info View Controller"
+    
 }
 
 struct Storyboard {

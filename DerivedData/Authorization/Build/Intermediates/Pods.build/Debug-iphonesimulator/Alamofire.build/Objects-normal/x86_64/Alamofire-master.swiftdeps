@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "93ff921d6c85aabece6dc7a2c14d769f"
-build_time: [551956825, 925646000]
+options: "9441a1b84763e5c8ac07305ea803fcef"
+build_time: [552028385, 762658000]
 inputs:
   "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/AFError.swift": [551346742, 0]
   "/Users/zaman/iOS/projects/Authorization_v2/Pods/Alamofire/Source/Alamofire.swift": [551346742, 0]

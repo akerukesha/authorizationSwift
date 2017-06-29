@@ -1,0 +1,736 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Completion"
+- "CacheManager"
+- "=="
+provides-nominal:
+- "C5Cache12CacheManager"
+- "OC5Cache12CacheManager10CacheError"
+provides-member:
+- ["C5Cache12CacheManager", ""]
+- ["OC5Cache12CacheManager10CacheError", ""]
+- ["C5Cache12CacheManager", "addObject"]
+- ["C5Cache12CacheManager", "object"]
+- ["C5Cache12CacheManager", "cacheEntry"]
+- ["C5Cache12CacheManager", "removeObject"]
+- ["C5Cache12CacheManager", "clear"]
+- ["C5Cache12CacheManager", "clearExpired"]
+- ["C5Cache12CacheManager", "totalDiskSize"]
+- ["C5Cache12CacheManager", "addObject"]
+- ["C5Cache12CacheManager", "object"]
+- ["C5Cache12CacheManager", "cacheEntry"]
+- ["C5Cache12CacheManager", "removeObject"]
+- ["C5Cache12CacheManager", "clear"]
+- ["C5Cache12CacheManager", "clearExpired"]
+provides-dynamic-lookup:
+- "applicationDidEnterBackground"
+- "clear"
+- "clearExpired"
+- "clearExpiredDataInBackStorage"
+- "clearExpiredDataInFrontStorage"
+- "prefix"
+- "removeObject"
+depends-top-level:
+- "=="
+- !private "??"
+- !private "Array"
+- !private "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Cachable"
+- "CacheEntry"
+- "CacheManager"
+- "CastingPrecedence"
+- "Completion"
+- "Config"
+- "DiskStorage"
+- "DispatchQueue"
+- "Error"
+- "Expiry"
+- !private "Logger"
+- "MemoryStorage"
+- "NSObject"
+- !private "NotificationCenter"
+- "String"
+- "StringLiteralType"
+- !private "UIApplication"
+- !private "UIBackgroundTaskIdentifier"
+- !private "UIBackgroundTaskInvalid"
+- "UInt64"
+- !private "UnicodeScalarType"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "CacheError"]
+- !private ["Ps9AnyObject", "CacheManager"]
+- !private ["Ps9AnyObject", "Config"]
+- !private ["Ps9AnyObject", "DiskStorage"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "Logger"]
+- !private ["Ps9AnyObject", "MemoryStorage"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "UIBackgroundTaskInvalid"]
+- !private ["Ps9AnyObject", "addObject"]
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "applicationDidEnterBackground"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "backStorage"]
+- !private ["Ps9AnyObject", "beginBackgroundTask"]
+- !private ["Ps9AnyObject", "cacheEntry"]
+- !private ["Ps9AnyObject", "clear"]
+- !private ["Ps9AnyObject", "clearExpired"]
+- !private ["Ps9AnyObject", "clearExpiredDataInBackStorage"]
+- !private ["Ps9AnyObject", "clearExpiredDataInFrontStorage"]
+- !private ["Ps9AnyObject", "config"]
+- !private ["Ps9AnyObject", "createDirectory"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "endBackgroundTask"]
+- !private ["Ps9AnyObject", "frontStorage"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "log"]
+- !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "prefix"]
+- !private ["Ps9AnyObject", "readQueue"]
+- !private ["Ps9AnyObject", "removeObject"]
+- !private ["Ps9AnyObject", "removeObserver"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "sync"]
+- !private ["Ps9AnyObject", "totalSize"]
+- !private ["Ps9AnyObject", "writeQueue"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "joined"]
+- !private ["Ps23BidirectionalCollection", "joined"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "CacheError"]
+- !private ["Ps7CVarArg", "CacheManager"]
+- !private ["Ps7CVarArg", "Config"]
+- !private ["Ps7CVarArg", "DiskStorage"]
+- !private ["Ps7CVarArg", "DispatchQueue"]
+- !private ["Ps7CVarArg", "Logger"]
+- !private ["Ps7CVarArg", "MemoryStorage"]
+- !private ["Ps7CVarArg", "NotificationCenter"]
+- !private ["Ps7CVarArg", "UIApplication"]
+- !private ["Ps7CVarArg", "UIBackgroundTaskInvalid"]
+- !private ["Ps7CVarArg", "addObserver"]
+- !private ["Ps7CVarArg", "applicationDidEnterBackground"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "backStorage"]
+- !private ["Ps7CVarArg", "beginBackgroundTask"]
+- !private ["Ps7CVarArg", "cacheEntry"]
+- !private ["Ps7CVarArg", "clearExpired"]
+- !private ["Ps7CVarArg", "clearExpiredDataInBackStorage"]
+- !private ["Ps7CVarArg", "clearExpiredDataInFrontStorage"]
+- !private ["Ps7CVarArg", "config"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "endBackgroundTask"]
+- !private ["Ps7CVarArg", "frontStorage"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "joined"]
+- !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "prefix"]
+- !private ["Ps7CVarArg", "readQueue"]
+- !private ["Ps7CVarArg", "removeObserver"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "sync"]
+- !private ["Ps7CVarArg", "writeQueue"]
+- ["Ps7CVarArg", ""]
+- ["P5Cache8Cachable", "init"]
+- !private ["V5Cache10CacheEntry", "expiry"]
+- !private ["V5Cache10CacheEntry", "object"]
+- ["OC5Cache12CacheManager10CacheError", "=="]
+- ["OC5Cache12CacheManager10CacheError", "_code"]
+- ["OC5Cache12CacheManager10CacheError", "_domain"]
+- ["OC5Cache12CacheManager10CacheError", "_getEmbeddedNSError"]
+- ["OC5Cache12CacheManager10CacheError", "_toAnyHashable"]
+- ["OC5Cache12CacheManager10CacheError", "_userInfo"]
+- ["OC5Cache12CacheManager10CacheError", "deallocated"]
+- ["OC5Cache12CacheManager10CacheError", "deinit"]
+- ["OC5Cache12CacheManager10CacheError", "hashValue"]
+- ["OC5Cache12CacheManager10CacheError", "notFound"]
+- ["C5Cache12CacheManager", "Bool"]
+- ["C5Cache12CacheManager", "Cachable"]
+- ["C5Cache12CacheManager", "CacheEntry"]
+- ["C5Cache12CacheManager", "CacheError"]
+- !private ["C5Cache12CacheManager", "CacheManager"]
+- ["C5Cache12CacheManager", "Completion"]
+- ["C5Cache12CacheManager", "Config"]
+- ["C5Cache12CacheManager", "DiskStorage"]
+- ["C5Cache12CacheManager", "DispatchQueue"]
+- ["C5Cache12CacheManager", "Error"]
+- ["C5Cache12CacheManager", "Expiry"]
+- !private ["C5Cache12CacheManager", "Logger"]
+- ["C5Cache12CacheManager", "MemoryStorage"]
+- !private ["C5Cache12CacheManager", "NotificationCenter"]
+- ["C5Cache12CacheManager", "String"]
+- !private ["C5Cache12CacheManager", "UIApplication"]
+- !private ["C5Cache12CacheManager", "UIBackgroundTaskIdentifier"]
+- !private ["C5Cache12CacheManager", "UIBackgroundTaskInvalid"]
+- ["C5Cache12CacheManager", "UInt64"]
+- ["C5Cache12CacheManager", "Void"]
+- ["C5Cache12CacheManager", "addObject"]
+- !private ["C5Cache12CacheManager", "applicationDidEnterBackground"]
+- ["C5Cache12CacheManager", "backStorage"]
+- ["C5Cache12CacheManager", "cacheEntry"]
+- ["C5Cache12CacheManager", "clear"]
+- ["C5Cache12CacheManager", "clearExpired"]
+- !private ["C5Cache12CacheManager", "clearExpiredDataInBackStorage"]
+- !private ["C5Cache12CacheManager", "clearExpiredDataInFrontStorage"]
+- ["C5Cache12CacheManager", "config"]
+- ["C5Cache12CacheManager", "deinit"]
+- !private ["C5Cache12CacheManager", "endBackgroundTask"]
+- ["C5Cache12CacheManager", "frontStorage"]
+- ["C5Cache12CacheManager", "init"]
+- ["C5Cache12CacheManager", "object"]
+- ["C5Cache12CacheManager", "prefix"]
+- !private ["C5Cache12CacheManager", "readQueue"]
+- ["C5Cache12CacheManager", "removeObject"]
+- ["C5Cache12CacheManager", "totalDiskSize"]
+- !private ["C5Cache12CacheManager", "writeQueue"]
+- !private ["Ps10Collection", "joined"]
+- !private ["Ps10Comparable", "UIApplicationDidEnterBackground"]
+- !private ["Ps10Comparable", "UIApplicationDidReceiveMemoryWarning"]
+- !private ["Ps10Comparable", "UIApplicationWillTerminate"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["V5Cache6Config", "cacheDirectory"]
+- !private ["V5Cache6Config", "expiry"]
+- !private ["V5Cache6Config", "init"]
+- !private ["V5Cache6Config", "maxDiskSize"]
+- !private ["V5Cache6Config", "memoryCountLimit"]
+- !private ["V5Cache6Config", "memoryTotalCostLimit"]
+- !private ["Ps28CustomDebugStringConvertible", "CacheError"]
+- !private ["Ps28CustomDebugStringConvertible", "CacheManager"]
+- !private ["Ps28CustomDebugStringConvertible", "Config"]
+- !private ["Ps28CustomDebugStringConvertible", "DiskStorage"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "Logger"]
+- !private ["Ps28CustomDebugStringConvertible", "MemoryStorage"]
+- !private ["Ps28CustomDebugStringConvertible", "NotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplicationDidEnterBackground"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplicationDidReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBackgroundTaskInvalid"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "backStorage"]
+- !private ["Ps28CustomDebugStringConvertible", "beginBackgroundTask"]
+- !private ["Ps28CustomDebugStringConvertible", "cacheEntry"]
+- !private ["Ps28CustomDebugStringConvertible", "clearExpired"]
+- !private ["Ps28CustomDebugStringConvertible", "clearExpiredDataInBackStorage"]
+- !private ["Ps28CustomDebugStringConvertible", "clearExpiredDataInFrontStorage"]
+- !private ["Ps28CustomDebugStringConvertible", "config"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "endBackgroundTask"]
+- !private ["Ps28CustomDebugStringConvertible", "frontStorage"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "joined"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "prefix"]
+- !private ["Ps28CustomDebugStringConvertible", "readQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "sync"]
+- !private ["Ps28CustomDebugStringConvertible", "writeQueue"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "UIApplicationDidEnterBackground"]
+- !private ["Ps17CustomReflectable", "UIApplicationDidReceiveMemoryWarning"]
+- !private ["Ps17CustomReflectable", "UIApplicationWillTerminate"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "joined"]
+- !private ["Ps23CustomStringConvertible", "CacheError"]
+- !private ["Ps23CustomStringConvertible", "CacheManager"]
+- !private ["Ps23CustomStringConvertible", "Config"]
+- !private ["Ps23CustomStringConvertible", "DiskStorage"]
+- !private ["Ps23CustomStringConvertible", "DispatchQueue"]
+- !private ["Ps23CustomStringConvertible", "Logger"]
+- !private ["Ps23CustomStringConvertible", "MemoryStorage"]
+- !private ["Ps23CustomStringConvertible", "NotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- !private ["Ps23CustomStringConvertible", "UIBackgroundTaskInvalid"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "backStorage"]
+- !private ["Ps23CustomStringConvertible", "beginBackgroundTask"]
+- !private ["Ps23CustomStringConvertible", "cacheEntry"]
+- !private ["Ps23CustomStringConvertible", "clearExpired"]
+- !private ["Ps23CustomStringConvertible", "clearExpiredDataInBackStorage"]
+- !private ["Ps23CustomStringConvertible", "clearExpiredDataInFrontStorage"]
+- !private ["Ps23CustomStringConvertible", "config"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "endBackgroundTask"]
+- !private ["Ps23CustomStringConvertible", "frontStorage"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "joined"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "prefix"]
+- !private ["Ps23CustomStringConvertible", "readQueue"]
+- !private ["Ps23CustomStringConvertible", "removeObserver"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "sync"]
+- !private ["Ps23CustomStringConvertible", "writeQueue"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["C5Cache11DiskStorage", "addObject"]
+- !private ["C5Cache11DiskStorage", "cacheEntry"]
+- !private ["C5Cache11DiskStorage", "clear"]
+- !private ["C5Cache11DiskStorage", "clearExpired"]
+- !private ["C5Cache11DiskStorage", "createDirectory"]
+- !private ["C5Cache11DiskStorage", "deinit"]
+- !private ["C5Cache11DiskStorage", "init"]
+- !private ["C5Cache11DiskStorage", "removeObject"]
+- !private ["C5Cache11DiskStorage", "totalSize"]
+- !private ["CSo14DispatchObject", "async"]
+- !private ["CSo14DispatchObject", "main"]
+- !private ["CSo14DispatchObject", "sync"]
+- !private ["CSo13DispatchQueue", "async"]
+- !private ["CSo13DispatchQueue", "init"]
+- !private ["CSo13DispatchQueue", "main"]
+- !private ["CSo13DispatchQueue", "sync"]
+- !private ["Ps9Equatable", "CacheError"]
+- !private ["Ps9Equatable", "CacheManager"]
+- !private ["Ps9Equatable", "Config"]
+- !private ["Ps9Equatable", "DiskStorage"]
+- !private ["Ps9Equatable", "DispatchQueue"]
+- !private ["Ps9Equatable", "Logger"]
+- !private ["Ps9Equatable", "MemoryStorage"]
+- !private ["Ps9Equatable", "NotificationCenter"]
+- !private ["Ps9Equatable", "UIApplication"]
+- !private ["Ps9Equatable", "UIApplicationDidEnterBackground"]
+- !private ["Ps9Equatable", "UIApplicationDidReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "UIApplicationWillTerminate"]
+- !private ["Ps9Equatable", "UIBackgroundTaskInvalid"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_getEmbeddedNSError"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "applicationDidEnterBackground"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "backStorage"]
+- !private ["Ps9Equatable", "beginBackgroundTask"]
+- !private ["Ps9Equatable", "cacheEntry"]
+- !private ["Ps9Equatable", "clearExpired"]
+- !private ["Ps9Equatable", "clearExpiredDataInBackStorage"]
+- !private ["Ps9Equatable", "clearExpiredDataInFrontStorage"]
+- !private ["Ps9Equatable", "config"]
+- !private ["Ps9Equatable", "deallocated"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "endBackgroundTask"]
+- !private ["Ps9Equatable", "frontStorage"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "notFound"]
+- !private ["Ps9Equatable", "prefix"]
+- !private ["Ps9Equatable", "readQueue"]
+- !private ["Ps9Equatable", "removeObserver"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "sync"]
+- !private ["Ps9Equatable", "writeQueue"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- !private ["Ps5Error", "deallocated"]
+- ["Ps5Error", "hashValue"]
+- !private ["Ps5Error", "notFound"]
+- ["Ps5Error", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "joined"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "UIApplicationDidEnterBackground"]
+- !private ["Ps23ExpressibleByNilLiteral", "UIApplicationDidReceiveMemoryWarning"]
+- !private ["Ps23ExpressibleByNilLiteral", "UIApplicationWillTerminate"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CacheError"]
+- !private ["Ps8Hashable", "CacheManager"]
+- !private ["Ps8Hashable", "Config"]
+- !private ["Ps8Hashable", "DiskStorage"]
+- !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "Logger"]
+- !private ["Ps8Hashable", "MemoryStorage"]
+- !private ["Ps8Hashable", "NotificationCenter"]
+- !private ["Ps8Hashable", "UIApplication"]
+- !private ["Ps8Hashable", "UIApplicationDidEnterBackground"]
+- !private ["Ps8Hashable", "UIApplicationDidReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "UIApplicationWillTerminate"]
+- !private ["Ps8Hashable", "UIBackgroundTaskInvalid"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_getEmbeddedNSError"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "applicationDidEnterBackground"]
+- !private ["Ps8Hashable", "async"]
+- !private ["Ps8Hashable", "backStorage"]
+- !private ["Ps8Hashable", "beginBackgroundTask"]
+- !private ["Ps8Hashable", "cacheEntry"]
+- !private ["Ps8Hashable", "clearExpired"]
+- !private ["Ps8Hashable", "clearExpiredDataInBackStorage"]
+- !private ["Ps8Hashable", "clearExpiredDataInFrontStorage"]
+- !private ["Ps8Hashable", "config"]
+- !private ["Ps8Hashable", "deallocated"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "endBackgroundTask"]
+- !private ["Ps8Hashable", "frontStorage"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "notFound"]
+- !private ["Ps8Hashable", "prefix"]
+- !private ["Ps8Hashable", "readQueue"]
+- !private ["Ps8Hashable", "removeObserver"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "sync"]
+- !private ["Ps8Hashable", "writeQueue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["C5Cache6Logger", "log"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["C5Cache13MemoryStorage", "addObject"]
+- !private ["C5Cache13MemoryStorage", "cacheEntry"]
+- !private ["C5Cache13MemoryStorage", "clear"]
+- !private ["C5Cache13MemoryStorage", "clearExpired"]
+- !private ["C5Cache13MemoryStorage", "deinit"]
+- !private ["C5Cache13MemoryStorage", "init"]
+- !private ["C5Cache13MemoryStorage", "removeObject"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "joined"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Cachable"]
+- ["CSo8NSObject", "CacheEntry"]
+- !private ["CSo8NSObject", "CacheError"]
+- !private ["CSo8NSObject", "CacheManager"]
+- ["CSo8NSObject", "Completion"]
+- ["CSo8NSObject", "Config"]
+- ["CSo8NSObject", "DiskStorage"]
+- ["CSo8NSObject", "DispatchQueue"]
+- ["CSo8NSObject", "Error"]
+- ["CSo8NSObject", "Expiry"]
+- !private ["CSo8NSObject", "Logger"]
+- ["CSo8NSObject", "MemoryStorage"]
+- !private ["CSo8NSObject", "NotificationCenter"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIApplication"]
+- !private ["CSo8NSObject", "UIBackgroundTaskIdentifier"]
+- !private ["CSo8NSObject", "UIBackgroundTaskInvalid"]
+- ["CSo8NSObject", "UInt64"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "addObject"]
+- !private ["CSo8NSObject", "addObserver"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- !private ["CSo8NSObject", "async"]
+- ["CSo8NSObject", "backStorage"]
+- !private ["CSo8NSObject", "beginBackgroundTask"]
+- ["CSo8NSObject", "cacheEntry"]
+- ["CSo8NSObject", "clear"]
+- ["CSo8NSObject", "clearExpired"]
+- ["CSo8NSObject", "clearExpiredDataInBackStorage"]
+- ["CSo8NSObject", "clearExpiredDataInFrontStorage"]
+- ["CSo8NSObject", "config"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "endBackgroundTask"]
+- ["CSo8NSObject", "frontStorage"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "object"]
+- ["CSo8NSObject", "prefix"]
+- ["CSo8NSObject", "readQueue"]
+- ["CSo8NSObject", "removeObject"]
+- !private ["CSo8NSObject", "removeObserver"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "sync"]
+- ["CSo8NSObject", "totalDiskSize"]
+- ["CSo8NSObject", "writeQueue"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CacheError"]
+- !private ["PSo16NSObjectProtocol", "CacheManager"]
+- !private ["PSo16NSObjectProtocol", "Config"]
+- !private ["PSo16NSObjectProtocol", "DiskStorage"]
+- !private ["PSo16NSObjectProtocol", "DispatchQueue"]
+- !private ["PSo16NSObjectProtocol", "Logger"]
+- !private ["PSo16NSObjectProtocol", "MemoryStorage"]
+- !private ["PSo16NSObjectProtocol", "NotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "UIBackgroundTaskInvalid"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- !private ["PSo16NSObjectProtocol", "backStorage"]
+- !private ["PSo16NSObjectProtocol", "beginBackgroundTask"]
+- !private ["PSo16NSObjectProtocol", "cacheEntry"]
+- !private ["PSo16NSObjectProtocol", "clearExpired"]
+- !private ["PSo16NSObjectProtocol", "clearExpiredDataInBackStorage"]
+- !private ["PSo16NSObjectProtocol", "clearExpiredDataInFrontStorage"]
+- !private ["PSo16NSObjectProtocol", "config"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "endBackgroundTask"]
+- !private ["PSo16NSObjectProtocol", "frontStorage"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "prefix"]
+- !private ["PSo16NSObjectProtocol", "readQueue"]
+- !private ["PSo16NSObjectProtocol", "removeObserver"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "sync"]
+- !private ["PSo16NSObjectProtocol", "writeQueue"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["VCSo14NSNotification4Name", "UIApplicationDidEnterBackground"]
+- !private ["VCSo14NSNotification4Name", "UIApplicationDidReceiveMemoryWarning"]
+- !private ["VCSo14NSNotification4Name", "UIApplicationWillTerminate"]
+- !private ["CSo18NotificationCenter", "addObserver"]
+- !private ["CSo18NotificationCenter", "default"]
+- !private ["CSo18NotificationCenter", "removeObserver"]
+- !private ["CSo9OS_object", "async"]
+- !private ["CSo9OS_object", "main"]
+- !private ["CSo9OS_object", "sync"]
+- !private ["Sq", "UIApplicationDidEnterBackground"]
+- !private ["Sq", "UIApplicationDidReceiveMemoryWarning"]
+- !private ["Sq", "UIApplicationWillTerminate"]
+- !private ["Ps22RandomAccessCollection", "joined"]
+- !private ["Ps26RangeReplaceableCollection", "joined"]
+- !private ["Ps16RawRepresentable", "UIApplicationDidEnterBackground"]
+- !private ["Ps16RawRepresentable", "UIApplicationDidReceiveMemoryWarning"]
+- !private ["Ps16RawRepresentable", "UIApplicationWillTerminate"]
+- !private ["Ps8Sequence", "joined"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Vs12StaticString", "init"]
+- !private ["P5Cache12StorageAware", "addObject"]
+- !private ["P5Cache12StorageAware", "cacheEntry"]
+- !private ["P5Cache12StorageAware", "clear"]
+- !private ["P5Cache12StorageAware", "clearExpired"]
+- !private ["P5Cache12StorageAware", "createDirectory"]
+- !private ["P5Cache12StorageAware", "init"]
+- !private ["P5Cache12StorageAware", "removeObject"]
+- !private ["P5Cache12StorageAware", "totalSize"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["CSo13UIApplication", "beginBackgroundTask"]
+- !private ["CSo13UIApplication", "endBackgroundTask"]
+- !private ["CSo13UIApplication", "shared"]
+- !private ["CSo11UIResponder", "beginBackgroundTask"]
+- !private ["CSo11UIResponder", "endBackgroundTask"]
+- !private ["CSo11UIResponder", "shared"]
+- !private ["PSo30UIResponderStandardEditActions", "beginBackgroundTask"]
+- !private ["PSo30UIResponderStandardEditActions", "endBackgroundTask"]
+- !private ["PSo30UIResponderStandardEditActions", "shared"]
+- !private ["Ps14_ArrayProtocol", "joined"]
+- !private ["Ps23_BidirectionalIndexable", "joined"]
+- !private ["Ps24_DestructorSafeContainer", "joined"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CacheError"]
+- !private ["Ps9_Hashable", "CacheManager"]
+- !private ["Ps9_Hashable", "Config"]
+- !private ["Ps9_Hashable", "DiskStorage"]
+- !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "Logger"]
+- !private ["Ps9_Hashable", "MemoryStorage"]
+- !private ["Ps9_Hashable", "NotificationCenter"]
+- !private ["Ps9_Hashable", "UIApplication"]
+- !private ["Ps9_Hashable", "UIApplicationDidEnterBackground"]
+- !private ["Ps9_Hashable", "UIApplicationDidReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "UIApplicationWillTerminate"]
+- !private ["Ps9_Hashable", "UIBackgroundTaskInvalid"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_getEmbeddedNSError"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- !private ["Ps9_Hashable", "addObserver"]
+- !private ["Ps9_Hashable", "applicationDidEnterBackground"]
+- !private ["Ps9_Hashable", "async"]
+- !private ["Ps9_Hashable", "backStorage"]
+- !private ["Ps9_Hashable", "beginBackgroundTask"]
+- !private ["Ps9_Hashable", "cacheEntry"]
+- !private ["Ps9_Hashable", "clearExpired"]
+- !private ["Ps9_Hashable", "clearExpiredDataInBackStorage"]
+- !private ["Ps9_Hashable", "clearExpiredDataInFrontStorage"]
+- !private ["Ps9_Hashable", "config"]
+- !private ["Ps9_Hashable", "deallocated"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "endBackgroundTask"]
+- !private ["Ps9_Hashable", "frontStorage"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "notFound"]
+- !private ["Ps9_Hashable", "prefix"]
+- !private ["Ps9_Hashable", "readQueue"]
+- !private ["Ps9_Hashable", "removeObserver"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "sync"]
+- !private ["Ps9_Hashable", "writeQueue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps10_Indexable", "joined"]
+- !private ["Ps14_IndexableBase", "joined"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps17_MutableIndexable", "joined"]
+- !private ["Ps21_ObjectiveCBridgeable", "UIApplicationDidEnterBackground"]
+- !private ["Ps21_ObjectiveCBridgeable", "UIApplicationDidReceiveMemoryWarning"]
+- !private ["Ps21_ObjectiveCBridgeable", "UIApplicationWillTerminate"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "joined"]
+- !private ["Ps22_RandomAccessIndexable", "joined"]
+- !private ["Ps26_RangeReplaceableIndexable", "joined"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps20_SwiftNewtypeWrapper", "UIApplicationDidEnterBackground"]
+- !private ["Ps20_SwiftNewtypeWrapper", "UIApplicationDidReceiveMemoryWarning"]
+- !private ["Ps20_SwiftNewtypeWrapper", "UIApplicationWillTerminate"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- "P5Cache8Cachable"
+- !private "V5Cache10CacheEntry"
+- "OC5Cache12CacheManager10CacheError"
+- "C5Cache12CacheManager"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "V5Cache6Config"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "C5Cache11DiskStorage"
+- !private "CSo14DispatchObject"
+- !private "CSo13DispatchQueue"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "C5Cache6Logger"
+- "Ps25LosslessStringConvertible"
+- !private "C5Cache13MemoryStorage"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "VCSo14NSNotification4Name"
+- !private "CSo18NotificationCenter"
+- !private "CSo9OS_object"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "P5Cache12StorageAware"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "CSo13UIApplication"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaman/iOS/projects/Authorization_v2/Pods/Target Support Files/Cache/Cache-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/Pods/Target Support Files/SwiftHash/SwiftHash-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Intermediates/Pods.build/Debug-iphonesimulator/Cache.build/unextended-module.modulemap"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftHash.build/module.modulemap"
+interface-hash: "5cad4246f6c242a2ddb090d288082b2f"

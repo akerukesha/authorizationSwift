@@ -1,6 +1,6 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "e024e1756479a2e53f8a7d9ddefc5a57"
-build_time: [551956832, 903529000]
+options: "9d56be7ee7b7a6abd682b7ae554fa80c"
+build_time: [552028392, 481112000]
 inputs:
   "/Users/zaman/iOS/projects/Authorization_v2/Pods/NVActivityIndicatorView/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift": [551346748, 0]
   "/Users/zaman/iOS/projects/Authorization_v2/Pods/NVActivityIndicatorView/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallBeat.swift": [551346748, 0]

@@ -18,10 +18,12 @@ class EmailViewController: UIViewController {
     
     // MARK: - action'ы
     // показываем страницу с вводом пароля
-    @IBAction private func showPassword(_ sender: UIBarButtonItem) {
+    @IBAction private func showPassword() {
         let email = emailTextField.text!
+        //hiding keyboard for preventing typing
+        view.endEditing(true)
         
-        // здесь должна быть проверка на правильность формата email
+        // проверка на правильность формата email
         if User.isValidEmail(email: email) == true {
             performSegue(withIdentifier: Constants.passwordSegue, sender: email)
         } else {
@@ -30,7 +32,30 @@ class EmailViewController: UIViewController {
             
         }
     }
+    @IBOutlet weak var bottomView: UIView!
+    @IBAction func editingDidBegin(_ sender: UITextField) {
+        bottomView.backgroundColor = GlobalConstants.editingDidBeginColor
+    }
     
+    @IBAction func editingDidEnd(_ sender: UITextField) {
+        bottomView.backgroundColor = GlobalConstants.editingDidEndColor
+        
+    }
+    @IBOutlet weak var navigationBar: UINavigationItem!
+    
+    @IBAction func editingChanged(_ sender: UITextField) {
+        if emailTextField.text?.isEmpty == false {
+            //activating "next" button
+            
+            let nextButton = UIBarButtonItem(title: "Далее", style: .plain, target: self, action: #selector(showPassword))
+            
+            navigationItem.rightBarButtonItems = [nextButton]
+            
+        } else {
+            //deactivating "next" button
+            navigationItem.rightBarButtonItems = nil
+        }
+    }
     // MARK: - навигация
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier! {

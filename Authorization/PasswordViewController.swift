@@ -22,10 +22,41 @@ class PasswordViewController: UIViewController, NVActivityIndicatorViewable {
     
     // MARK: - outlet'ы
     
+    
+    @IBOutlet weak var bottomView: UIView!
+    
     @IBOutlet private weak var passwordTextField: UITextField!
     
-    @IBAction private func authorize(_ sender: UIBarButtonItem) {
+    @IBAction func backButtonClicked(_ sender: UIBarButtonItem) {
+        
+        self.present(Storyboard.authorizationNC, animated: true, completion: nil)
+        
+    }
+    @IBAction func editingDidBegin(_ sender: UITextField) {
+        bottomView.backgroundColor = GlobalConstants.editingDidBeginColor
+        
+    }
+    @IBAction func editingDidEnd(_ sender: UITextField) {
+        bottomView.backgroundColor = GlobalConstants.editingDidEndColor
+        
+    }
+    @IBAction func editingChanged(_ sender: UITextField) {
+        if passwordTextField.text?.isEmpty == false {
+            //activating "next" button
+            
+            let nextButton = UIBarButtonItem(title: "Далее", style: .plain, target: self, action: #selector(authorize))
+            
+            navigationItem.rightBarButtonItems = [nextButton]
+            
+        } else {
+            //deactivating "next" button
+            navigationItem.rightBarButtonItems = nil
+        }
+    }
+    @IBAction private func authorize() {
         let password = passwordTextField.text!
+        //hiding keyboard for preventing typing
+        view.endEditing(true)
         
         // проверка на правильность пароля(минимум 4 символов)
         if User.isValidPassword(password: password) == true {

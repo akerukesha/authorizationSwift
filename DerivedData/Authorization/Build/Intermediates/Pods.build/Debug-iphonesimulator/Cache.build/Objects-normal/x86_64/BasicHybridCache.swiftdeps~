@@ -1,0 +1,119 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BasicHybridCache"
+provides-nominal:
+- "C5Cache16BasicHybridCache"
+provides-member:
+- ["C5Cache16BasicHybridCache", ""]
+- ["C5Cache16BasicHybridCache", "totalDiskSize"]
+- ["C5Cache16BasicHybridCache", "setFileProtection"]
+- ["C5Cache16BasicHybridCache", "setDiskCacheDirectoryAttributes"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "BasicHybridCache"
+- "CacheManager"
+- "Config"
+- "FileAttributeKey"
+- "FileProtectionType"
+- "String"
+- "UInt64"
+depends-member:
+- !private ["Ps9AnyObject", "CacheManager"]
+- !private ["Ps9AnyObject", "Config"]
+- !private ["Ps9AnyObject", "backStorage"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "manager"]
+- !private ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "path"]
+- !private ["Ps9AnyObject", "setDirectoryAttributes"]
+- !private ["Ps9AnyObject", "setFileProtection"]
+- !private ["Ps9AnyObject", "totalDiskSize"]
+- ["Ps9AnyObject", ""]
+- ["C5Cache16BasicHybridCache", "CacheManager"]
+- ["C5Cache16BasicHybridCache", "Config"]
+- ["C5Cache16BasicHybridCache", "FileAttributeKey"]
+- ["C5Cache16BasicHybridCache", "FileProtectionType"]
+- ["C5Cache16BasicHybridCache", "String"]
+- ["C5Cache16BasicHybridCache", "UInt64"]
+- ["C5Cache16BasicHybridCache", "deinit"]
+- ["C5Cache16BasicHybridCache", "init"]
+- ["C5Cache16BasicHybridCache", "manager"]
+- ["C5Cache16BasicHybridCache", "name"]
+- ["C5Cache16BasicHybridCache", "path"]
+- ["C5Cache16BasicHybridCache", "setDiskCacheDirectoryAttributes"]
+- ["C5Cache16BasicHybridCache", "setFileProtection"]
+- ["C5Cache16BasicHybridCache", "totalDiskSize"]
+- !private ["Ps7CVarArg", "backStorage"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "totalDiskSize"]
+- !private ["C5Cache12CacheManager", "backStorage"]
+- !private ["C5Cache12CacheManager", "init"]
+- !private ["C5Cache12CacheManager", "totalDiskSize"]
+- !private ["V5Cache6Config", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "backStorage"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "totalDiskSize"]
+- !private ["Ps23CustomStringConvertible", "backStorage"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "totalDiskSize"]
+- !private ["C5Cache11DiskStorage", "path"]
+- !private ["C5Cache11DiskStorage", "setDirectoryAttributes"]
+- !private ["C5Cache11DiskStorage", "setFileProtection"]
+- !private ["Ps9Equatable", "backStorage"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "totalDiskSize"]
+- !private ["Ps8Hashable", "backStorage"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "totalDiskSize"]
+- !private ["CSo8NSObject", "backStorage"]
+- !private ["CSo8NSObject", "totalDiskSize"]
+- !private ["PSo16NSObjectProtocol", "backStorage"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "totalDiskSize"]
+- !private ["P5Cache12StorageAware", "path"]
+- !private ["P5Cache12StorageAware", "setDirectoryAttributes"]
+- !private ["P5Cache12StorageAware", "setFileProtection"]
+- !private ["Ps9_Hashable", "backStorage"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "totalDiskSize"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C5Cache16BasicHybridCache"
+- !private "Ps7CVarArg"
+- !private "C5Cache12CacheManager"
+- !private "V5Cache6Config"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "C5Cache11DiskStorage"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "P5Cache12StorageAware"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Modules/SwiftHash.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/zaman/iOS/projects/Authorization_v2/Pods/Target Support Files/Cache/Cache-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/Pods/Target Support Files/SwiftHash/SwiftHash-umbrella.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Products/Debug-iphonesimulator/SwiftHash/SwiftHash.framework/Headers/SwiftHash-Swift.h"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Intermediates/Pods.build/Debug-iphonesimulator/Cache.build/unextended-module.modulemap"
+- "/Users/zaman/iOS/projects/Authorization_v2/DerivedData/Authorization/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftHash.build/module.modulemap"
+interface-hash: "7d2c2b3310e11c1a08ae2d7985072c8d"

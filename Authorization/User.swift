@@ -15,13 +15,17 @@ struct User: Mappable {
     var token = ""
     var id = 0
     var email = ""
-    
+    var full_name = ""
+    var avatarURL = ""
+    var avatarImage: UIImage?
     init?(map: Map) { }
     
     mutating func mapping(map: Map) {
         token <- map["token"]
         id <- map["user.id"]
         email <- map["user.email"]
+        full_name <- map["user.full_name"]
+        avatarURL <- map["user.avatar"]
     }
     
     static func authorize(email: String,
@@ -40,6 +44,7 @@ struct User: Mappable {
                 let code = json["code"] as! Int
                 switch code {
                 case 0:
+                    
                     completion(User(JSON: json)!, nil)
                 case 6:
                     completion(nil, "email not found in server")
@@ -52,7 +57,7 @@ struct User: Mappable {
         }
     }
     static func isValidPassword(password: String) -> Bool {
-        if password.characters.count > 3 {
+        if password.characters.count >= 4 {
             return true
         } else {
             return false

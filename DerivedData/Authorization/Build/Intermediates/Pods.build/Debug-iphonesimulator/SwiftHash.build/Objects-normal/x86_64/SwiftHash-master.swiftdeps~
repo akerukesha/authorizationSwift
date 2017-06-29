@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "7a5790cbcd1c2dd1945cb6249fc5f174"
+build_time: [551973258, 824950000]
+inputs:
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/SwiftHash/Sources/MD5.swift": [551867229, 0]
+  "/Users/zaman/iOS/projects/Authorization_v2/Pods/SwiftHash/Sources/SHA1.swift": [551867229, 0]

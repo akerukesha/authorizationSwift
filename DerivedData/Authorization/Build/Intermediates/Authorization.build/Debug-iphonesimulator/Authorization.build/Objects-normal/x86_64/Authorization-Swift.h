@@ -152,31 +152,51 @@ SWIFT_CLASS("_TtC13Authorization11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIView;
+@class UITextField;
+@class UINavigationItem;
 @class UIStoryboardSegue;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC13Authorization19EmailViewController")
 @interface EmailViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified bottomView;
+- (IBAction)editingDidBegin:(UITextField * _Nonnull)sender;
+- (IBAction)editingDidEnd:(UITextField * _Nonnull)sender;
+@property (nonatomic, weak) IBOutlet UINavigationItem * _Null_unspecified navigationBar;
+- (IBAction)editingChanged:(UITextField * _Nonnull)sender;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIBarButtonItem;
 
 SWIFT_CLASS("_TtC13Authorization22PasswordViewController")
 @interface PasswordViewController : UIViewController
 @property (nonatomic, copy) NSString * _Null_unspecified email;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified bottomView;
+- (IBAction)backButtonClicked:(UIBarButtonItem * _Nonnull)sender;
+- (IBAction)editingDidBegin:(UITextField * _Nonnull)sender;
+- (IBAction)editingDidEnd:(UITextField * _Nonnull)sender;
+- (IBAction)editingChanged:(UITextField * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UILabel;
+@class UIImageView;
+@class UIActivityIndicatorView;
 @class UIButton;
 
 SWIFT_CLASS("_TtC13Authorization23TokenInfoViewController")
 @interface TokenInfoViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified tokenLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified fullNameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified emailLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified avatarViewer;
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified spinner;
 - (void)viewDidLoad;
 - (IBAction)cacheClearAction:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
