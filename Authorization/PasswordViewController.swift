@@ -68,6 +68,7 @@ class PasswordViewController: UIViewController, NVActivityIndicatorViewable {
                 if let message = message {
                     self.showAlertMessage(title: "Ошибка", message: message)
                 } else {
+                    
                     Storage.user = user
                     self.performSegue(withIdentifier: Constants.userInfoSegue,
                                   sender: user!)

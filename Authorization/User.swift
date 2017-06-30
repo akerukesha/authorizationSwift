@@ -17,7 +17,7 @@ struct User: Mappable {
     var email = ""
     var full_name = ""
     var avatarURL = ""
-    var avatarImage: UIImage?
+    
     init?(map: Map) { }
     
     mutating func mapping(map: Map) {
@@ -26,6 +26,8 @@ struct User: Mappable {
         email <- map["user.email"]
         full_name <- map["user.full_name"]
         avatarURL <- map["user.avatar"]
+        
+        
     }
     
     static func authorize(email: String,
@@ -55,6 +57,7 @@ struct User: Mappable {
                 completion(nil, error.localizedDescription)
             }
         }
+        
     }
     static func isValidPassword(password: String) -> Bool {
         if password.characters.count >= 4 {

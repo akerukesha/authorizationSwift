@@ -10,10 +10,13 @@ import Cache
 
 private struct Caches {
     static let jsonCache = SpecializedCache<JSON>(name: "JSON Cache")
+    
+    static let imageCache = SpecializedCache<UIImage>(name: "Image Cache")
 }
 
 private struct Keys {
     static let user = "User"
+    static let image = "Image"
 }
 
 struct Storage {
@@ -36,5 +39,20 @@ struct Storage {
             }
         }
     }
+    
+    static var image: UIImage? {
+        get {
+            return Caches.imageCache.object(forKey: Keys.image)
+                
+        }
+        set {
+            if let image = newValue {
+                try! Caches.imageCache.addObject(image, forKey: Keys.image)
+            } else {
+                try! Caches.imageCache.removeObject(forKey: Keys.image)
+            }
+        }
+    }
+
     
 }

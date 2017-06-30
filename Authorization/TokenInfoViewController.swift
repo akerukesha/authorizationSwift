@@ -44,17 +44,24 @@ class TokenInfoViewController: UIViewController {
         //print (user.toJSONString())
         let url = user.avatarURL
         //let url = "https://unsplash.it/200/300/?random"
-        if user.avatarImage == nil {
-           
+        if Storage.image == nil {
+            print ("new image")
             avatarViewer.image = nil
             spinner.startAnimating()
             ImageDownloader.fetchImage(with: url) { image in
                 self.spinner.stopAnimating()
-                self.user.avatarImage = image
+                Storage.image = image
+
+                
+                self.avatarViewer.image = Storage.image
+                
+                
             }
+        } else {
+            avatarViewer.image = Storage.image
         }
         
-        avatarViewer.image = user.avatarImage
+        
         
 
         
@@ -70,7 +77,7 @@ class TokenInfoViewController: UIViewController {
         updateUI()
         //Removing user info from cache
         Storage.user = nil
-        
+        Storage.image = nil
         //Changing view to main
         self.present(Storyboard.authorizationNC, animated: true, completion: nil)
     }

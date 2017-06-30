@@ -179,7 +179,7 @@
 				TargetAttributes = {
 					548B814B1EFA5C0500A38317 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 932PNCU542;
+						DevelopmentTeam = 8Z9BGY8WFJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -401,11 +401,11 @@
 			baseConfigurationReference = F89407B2E7D3F26A7B55687A /* Pods-Authorization.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 932PNCU542;
+				DEVELOPMENT_TEAM = 8Z9BGY8WFJ;
 				INFOPLIST_FILE = Authorization/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = codebusters.com.Authorization;
+				PRODUCT_BUNDLE_IDENTIFIER = setonix.me.auth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -416,11 +416,11 @@
 			baseConfigurationReference = C88921BC1BB8859677F6A904 /* Pods-Authorization.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 932PNCU542;
+				DEVELOPMENT_TEAM = 8Z9BGY8WFJ;
 				INFOPLIST_FILE = Authorization/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = codebusters.com.Authorization;
+				PRODUCT_BUNDLE_IDENTIFIER = setonix.me.auth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
